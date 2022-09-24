@@ -7,6 +7,9 @@
 - Calum
 - Finn
 
+## Minutes:
+- team member
+
 ## Apologies:
 - n/a
 
