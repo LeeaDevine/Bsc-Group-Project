@@ -3,8 +3,8 @@
 
 | Item | Action | Completion | Comments |
 | - | ---- | -- | ----- |
-| 1 | Role - Project Manager | 15/09/2022 |  none |
-| 2 | Fork GitHub Repo | 18/09/2022 |  none |
-| 3 | Complete weekly log | 22/09/2022 |  none |
-| 4 | Brainstorm projects | 22/09/2022 |  Idea: Alarm clock - Task completion |
+| 1 | Role - Project Manager | 15/09/2022 | none |
+| 2 | Fork GitHub Repo | 18/09/2022 | Forked copy to GitHub - No local repo |
+| 3 | Complete weekly log | 22/09/2022 |  learnt markdown |
+| 4 | Brainstorm projects | 22/09/2022 |  Idea: Alarm clock - Task completion? Find out more about this idea |
 
