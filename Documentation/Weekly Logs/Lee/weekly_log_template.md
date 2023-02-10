@@ -1,6 +1,15 @@
-# Weekly Log (Week #)
-DAY MONTH 2022 - DAY MONTH 2022
+# <strong>Weekly Log (Week #)</strong>
+### <mark style="background: #BDEBFF!important"><strong>START - END DATE</strong>
 
-| Item | Action | Completion | Comments |
-| - | ---- | -- | ----- |
-| 1 | ## | ##/##/2022 | none |
+---
+## <strong>Task 01</strong>
+Completed: **DATE**  
+<details>
+
+</details>
+
+---
+
+## <strong>Complete Weekly Log</strong>
+
+Completed: **DATE**  
