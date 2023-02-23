@@ -1,14 +1,12 @@
-# <strong>Weekly Log (Week 6)</strong>
+# <strong>Weekly Log (Week 7)</strong>
 ### <mark style="background: #BDEBFF!important"><strong>27th October 2022 - 3rd November 2022</strong>
 
 ---
 ## <strong>---</strong>
 Completed: **03/11/2022** 
 
-<details>
-<strong></strong></br>
-revise what i did this week - if nothing move to next week
-</details>
+Only meeting notes this week<br><br>
+Setup local GitHub repo within Visual Studio Code - allows me to keep track of meetings and updates weekly logs going forward
 
 ---
 
@@ -16,4 +14,12 @@ revise what i did this week - if nothing move to next week
 
 Completed: **DATE**  
 
-## NO MEETING - 27/10/2022
+---
+
+### NO MEETING - 27/10/2022
+
+---
+
+### MEETING 03/11/2023 
+
+---
