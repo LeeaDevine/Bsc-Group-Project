@@ -2,19 +2,17 @@
 
 ## Present:
 - Paul
-- Mark
 - Lee
-- Calum
 - Finn
 
 ## Minutes:
-- team member
+- Lee
 
 ## Apologies:
 - n/a
 
 ## What we discussed
-- Items discussed
+- 
 
 ## What we decided
 - Decisions made
