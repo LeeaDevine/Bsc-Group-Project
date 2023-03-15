@@ -1,8 +1,5 @@
 
-html{
-    font-family: "aktiv-grotesk", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.15;
+*{
     --uhi-black: #000;
     --uhi-white: #fff;
     --uhi-grey1: #A6A6A6;
@@ -15,9 +12,20 @@ html{
     --uhi-yellow: #FFBB50;
 }
 
+html{
+    font-family: "aktiv-grotesk", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.15;
+}
+
 body{
     margin: 0;
     padding: 0;
+}
+
+a{
+    color: var(--uhi-blue);
+    text-decoration: none;
 }
 
 /* ############################################################################################################## */
@@ -28,6 +36,12 @@ body{
     .header .tools li{
         padding: 8px 15px;
     }
+    header .nav-primary ul{
+        font-size: 16px;
+    }
+    header .nav-primary{
+    height: 60px;
+    }
 }
 @media (max-width: 1907px){
     .header .tools{
@@ -35,7 +49,10 @@ body{
     }
 }
 
-.header .tools{
+
+/* ######################################### TO0LS ######################################### */
+
+header .tools{
     list-style: none;
     background-color: var(--uhi-grey2);
     text-align: right;
@@ -45,8 +62,110 @@ body{
     padding-right: 5%;
 }
 
-.header .tools li{
+header .tools li{
     display: inline;
     padding: 10px 15px;
     color: var(--uhi-white);
+}
+
+header .tools li a {
+    color: var(--uhi-white);
+    text-decoration: none;
+}
+
+
+/* #################################### NAV PRIMARY ############################################ */
+
+header .nav-primary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    background-color: var(--uhi-black);
+    height: 85px;
+    z-index: 99;
+}
+
+header .nav-primary .logo img{
+    width: 60%;
+    height: auto;
+}
+
+header .nav-primary ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+header .nav-primary ul li, footer .flexwrap.socialdesk ul li{
+    display: inline-flex;
+}
+
+header .nav-primary ul li a{
+    color: var(--uhi-white);
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/* #################################### MAIN ############################################ */
+main{
+    height: 80vh;
+}
+
+/* #################################### FOOTER ############################################ */
+
+footer {
+    background-color: var(--uhi-black);
+    color: var(--uhi-white);
+    border-top: 8px solid var(--uhi-purple);
+    margin-top: 50px;
+}
+
+.flexwrap{
+    display: flex;
+}
+
+.flexwrap.links{
+    padding-top: 60px;
+}
+
+footer .flexwrap.links, footer .flexwrap.socialdesk, footer .flexwrap.statement {
+    justify-content: space-between;
+    margin: 0px 5%;
+}
+
+footer .links .site p:first-of-type, footer .links .partners p:first-of-type {
+    color: var(--uhi-white);
+}
+
+footer p{
+    color: var(--uhi-grey1);
+}
+
+footer .flexwrap.links ul, footer .flexwrap.socialdesk ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer .flexwrap.links ul li{
+    padding: 5px 0;
+}
+
+footer a{
+    font-weight: bold;
+    color: var(--uhi-grey1);
+    text-decoration: none;
+}
+
+/* SOCIALS */
+footer .flexwrap.socialdesk .social li a{
+    height: 50px;
+    width: 50px;
+}
+
+footer .flexwrap.socialdesk .servicedesk p a{
+    background-color: var(--uhi-white);
+    color: var(--uhi-black);
+    padding: 15px 20px;
+    border-radius: 3px;
 }
