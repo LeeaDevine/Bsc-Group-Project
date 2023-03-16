@@ -18,6 +18,13 @@ html{
     line-height: 1.15;
 }
 
+@media only screen and (min-width: 1000px) {
+    html {
+      font-size: 18px;
+    }
+}
+  
+
 body{
     margin: 0;
     padding: 0;
@@ -28,7 +35,27 @@ a{
     text-decoration: none;
 }
 
-/* ############################################################################################################## */
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+/* ##################################### MEDIA ############################################ */
 @media (max-width: 1771px){
     .header .tools{
         font-size: 13px;
@@ -107,9 +134,32 @@ header .nav-primary ul li a{
 }
 
 
+/* burger menu */
+header .nav.primary .burger{
+    cursor: pointer;
+    display: none;
+    border: none;
+    background: none;
+}
+
+header .nav-primary .burger a{
+    display: grid;
+    padding-top: 20px;
+}
+
+header .nav-primary .burger a .bar1,
+header .nav-primary .burger a .bar2,
+header .nav-primary .burger a .bar3{
+    width: 35px;
+    height: 3px;
+    background-color: var(--uhi-grey1);
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
 /* #################################### MAIN ############################################ */
 main{
-    height: 80vh;
+    height: 80dvh;
 }
 
 /* #################################### FOOTER ############################################ */
@@ -168,4 +218,20 @@ footer .flexwrap.socialdesk .servicedesk p a{
     color: var(--uhi-black);
     padding: 15px 20px;
     border-radius: 3px;
+}
+
+footer hr {
+    margin: 40px 5% 0px 5%;
+    border: 1px solid var(--uhi-grey2);
+}
+
+@media (max-width: 1168px){
+    footer {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .flexwrap{
+        flex-direction: column;
+    }
 }
